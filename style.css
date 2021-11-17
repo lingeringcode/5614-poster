@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@font-face {
+  font-family: "DatalegreyaThin";
+  src: url("datalegreya/font-files/Datalegreya-Thin/Datalegreya-Thin.otf") format("otf");
+}
+
+body {
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  /*  img src: Robin Hübscher: https://twitter.com/robinhuebscher/status/1461061639793430534/photo/3  */
+  background-image: url(https://www.clndgrn.com/media/other/haptic-data-viz.jpeg);
+  background-size: 100vw;
+  /* background-position: center 6vw; */
+}
+
+/* Typography */
+h1,h2,h3 {
+  font-family: 'Unique', serif;
+}
+body {
+  font-family: 'Cooper Hewitt';
+  font-style: normal;
+  font-size: 1.8vw;
+  color: black;
+}
+#description p { font-family: 'Work Sans', sans-serif; }
+a { color: black; }
+small { font-size: 1.5vw; }
+
+div[id*="row"] p {
+  position: absolute;
+  bottom: 0;  
+  margin-bottom: 0.4vw;
+}
+
+#row2b,#row3a{
+  text-align: right;
+}
+#row2b > h2, #row2-data > h2 {
+  font-family: 'DatalegreyaThin';
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 5.5vw;
+  margin: 40px 0 0 0;
+}
+#row2b > h2 > span {
+  color:rgb(44, 38, 31);
+}
+#row3a > h2 {
+  position: relative;
+  font-size: 4.5vw;
+}
+#row2b > h2:nth-child(2){
+  margin-top: -1vw;
+  font-size: 7.5vw;
+}
+#row4c {
+  font-size: 2.5vw;
+/*   margin-top: 45px; */
+}
+#row4c h2,#row4c p {
+  line-height: 1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#row9b {
+  grid-column-end: span 2;
+  font-size: 1.75vw;
+  margin-bottom: 20px;
+}
+#row9b p {
+  line-height: 1.25;
+}
+
+section#description{
+  max-width: 900px;
+  margin: 50px 40px;
+}
+section#description h2 {
+  font-size: 1.5em;
+  margin: 25px 0;
+}
+section#description h3 {
+  font-size: 1em;
+  margin: 25px 0;
+}
+section#description p {
+  font-size: 1em;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+#potential-texts > div > ul,
+section#description p {
+  margin-left:15px;
+}
+
+#potential-texts ul li {
+  font-size: 0.85em;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  margin-left: 1.5em;
+  text-indent: -1.5em;
+}
+div#sources p {
+  text-align: right;
+}
+
+#grid {
+  display: grid;
+  grid-gap: 1vw; 
+  grid-template-rows: 5vw;
+  grid-auto-rows: 9vw;
+  grid-template-columns: 1fr repeat(6, 3fr) 1fr;
+  padding-bottom: 50px;
+}
+
+#grid > div{
+  position: relative;
+  background-color: antiquewhite;
+  outline-style: solid;
+  outline-color: antiquewhite;
+  outline-width: 1vw;
+}
+
+div#row1-1, div#row1a, div#row1c, div#row2-1, div#row2a, div#row2c, div#row2d, div#row3b, div#row3c, div#row4a, div#row4b, div#row4d, div#row5a, div#row5b, div#row5d, div#row6a, div#row6b, div#row7a {
+  background-color: rgba(64,67,78,0.3);
+}
+div#row2b,div#row7a { 
+  grid-column: span 4;
+}
+div#row5a{
+  grid-column-end: span 3;
+}
+#row1b, div#row3b, div#row4b, div#row5c, div#row6a, div#row8a, div#row8b, div#row9a, div#row12a{
+  grid-column-end: span 3;
+}
+div#row2a, div#row2b{
+  grid-row-end: span 1;
+}
+div#row3a {
+  grid-column-end: span 1;
+}
+
+div#course-description {
+  grid-column-start: 2;
+  grid-column-end: span 4;
+  line-height: 1.25;
+}
+#course-description p {
+  font-style: normal;
+}
+div#sources {
+  grid-column-start: 1;
+  grid-column-end: span 6;
+  line-height: 1.25;
+  font-size: 1vw;
+}
+#filler {
+  width: 100vw;
+  height: 30vw;
+  background-color:#ff0;
+  margin-left: -1vw;
+}
