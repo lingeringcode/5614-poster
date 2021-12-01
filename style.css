@@ -86,6 +86,9 @@ section#description p {
   line-height: 1.5;
   margin-left: 1.5em;
   text-indent: -1.5em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 div#sources p {
   text-align: right;
