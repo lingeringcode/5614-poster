@@ -9,11 +9,20 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/datalegreya" type="text/css"/>
 </head>
+
+<!-- 
+  ambivalence, indifference vs homophily (similarity breeds connection)
+
+  What of heterophily: Aristotle asks do birds always fly together. Magnetic attraction; 
+  - Node as all those gaps; gaps can form (formulation of weak ties; nodding strangers; teaming spaces that make possible new connections)
+  - Infrastructures make connections appear
+
+  The more alike more comfortable is a myth: FB whistelblower found families thrown together will breed discord
+ -->
+ 
 <body>
   <div id="grid">
     <!-- row0 -->
-    <div></div>
-    <div></div>
     <div></div>
     <div></div>
     <div></div>
@@ -24,29 +33,31 @@
     <div></div>
     <div id="row1-1"></div>
     <div id="row1a"></div>
-    <div id="row1b"><p>An exploration of visualizing information and meaning-making: their limits and potential to create or sustain futures.</p></div>
+    <div id="row1b"><p>“Reality is manipulated in many ways and does not lie around waiting to be glanced at” (Gad & Jensen, 2010, p. 71)</p></div>
     <div id="row1c"></div>
     
     <!-- row2 -->
-    <div></div>
     <div id="row2a"></div>
     <div id="row2b">
-      <h2 role="heading" aria-label="Visual Rhetoric">
-        v|1i|2s|1 |0 |0 |2u |1 |0 |0 |0 |1a|2l |1r|3h|2e|1 |0 |0 |0 |2t
-      </h2>
+      <span role="heading" aria-label="Visual Rhetoric">
+        v|1i|2s|1 |0 |0 |2u |1 |0 |0 |1a|2l |1r|3h|2e|1 |0 |0 |0 |2t
+      </span>
     </div>
     <div id="row2c"></div>
     <div id="row2-data">
-      <h2>
+      <span>
         o|1r|2i|1c|0
-      </h2>
+      </span>
     </div>
     <div></div>
-    <div></div>
+    <div id="row2d"></div>
     
     <!-- row3 -->
-    <div></div>
-    <div id="row3a"></div>
+    <div id="row3">
+      <h3>ENGL 5614</h3>
+      <p><small>Spring 2022</small></p>
+    </div>
+    <!-- <div id="row3a"></div> -->
     <div id="row3b"></div>
     <div></div>
     <div id="row3c"></div>
@@ -55,25 +66,23 @@
     <div></div>
     <div id="row4a"></div>
     <div id="row4b"></div>
-    <div id="row4c">
-      <h3>ENGL 5614</h3>
-      <p><small>Spring 2022</small></p>
-    </div>
+    <div id="row4c"></div>
     <div id="row4d"></div>
-    <div></div>
+    <div id="row4e"></div>
     <div></div>
     
     <!-- row5 -->
-    <div></div>
-    <div id="row5a"></div>
-    <div id="row5b"></div>
-    <div id="row5c">
+    <div id="row5a">
       <p><a href="https://clndgrn.com/" target="_blank">Chris Lindgren, Ph.D.</a>
         <br>
         Assistant Professor of Technical Communication and Data Visualization
         <br>
         Department of English, Virginia Tech
       </p>
+    </div>
+    <div id="row5b"></div>
+    <div id="row5c">
+      
     </div>
     <div id="row5d"></div>
     
@@ -83,29 +92,37 @@
     <div></div>
     <div id="row6b"></div>
     <div></div>
-    <div></div>
     
     <!-- row7 -->
+    <div></div>
     <div id="row7a"></div>
-    <div></div>
-    <div></div>
-    <div></div>
   </div>
   
   <section id="description">
+
     <div id="course-description">
-      <h2>Course Description <small>(draft, subject to change)</small></h2>
+      <h2>
+        On Visualizing Scale 
+        <br>
+        <small>(draft, subject to change)</small>
+      </h2>
       <p>
-        This course introduces multiple frameworks and methodologies available to study the rhetorics of visualizing data and other kinds of information. We will examine how the boundaries that data and information set impact its visualization, as well as impact its audiences differently across intersections of gender, race, and class. To accomplish this aim, we will first define the field more broadly by surveying its exigencies and definitions. Then, we will draw connections and boundaries between visual rhetoric and areas such as technical communication, critical data studies, disability studies, feminism, and critical race theory. Throughout the course we will draw from contemporary and historical cases and learn a sample of fundamental data-design practices.
+        How do we "see" scale? How do we make our reality conspicuous — tokenize it — to render claims and evidence about it and particular groupings of it that are much bigger than what we can "normally" perceive? This course surveys multiple frameworks and methodologies to study the rhetorics, consequences, and potential futures of visualizing our datified lives. We will examine how the boundaries that data and information set impact the conditions of what we know and how we come to know it. This includes understanding the visual rhetorics of data itself, its visualization, as well as the impact these relationships between "seeing" data and communicating it impact audiences across intersections of gender, race, and class.
+      </p>
+      <p>
+        To accomplish this aim, we will first define the field of visual rhetoric more broadly by reviewing its exigencies and definitions. From there, we will <em>make conspicuous</em> any new connections and boundaries possible between visual rhetoric and areas such as critical data studies, decoloniality, disability studies, feminism, and critical race theory.
+      </p>
+      <p>
+        Throughout the course we will draw from contemporary and historical cases, and learn some fundamental data and information design practices.
       </p>
     </div>
     
-    <!-- <div id="potential-texts">
+    <div id="potential-texts">
       
       <h2>(Potential) Texts</h2>
       
       <div id="exigencies">
-        <h3>Exigencies</h3>
+        <h3>Visual Rhetoric's Exigencies</h3>
         <ul>
           <li>Blakesley, D., & Brooke, C. (2001). Introduction: Notes on Visual Rhetoric. Enculturation, 3(2). http://www.enculturation.net/3_2/introduction.html
           </li>
@@ -118,8 +135,26 @@
           <li>Rosner, M. (2001). Theories of Visual Rhetoric: Looking at the Human Genome. Journal of Technical Writing and Communication, 31(4), 391–413.</li>
         </ul>
       </div>
+
+      <div id="exigencies">
+        <h3>Critical / Foundational: Visualizing 'Matrices of Power'</h3>
+        <ul>
+          <li>
+            Chun, Wendy H. K. (2021). <em>Discriminating Data</em>. MIT Press.
+          </li>
+          <li>
+            Collins, Patricia H. (2000/2009). <em>Black Feminist Thought</em>. Routledge.
+          </li>
+          <li>
+            DiCaglio, Joshua. (2021). <em>Scale Theory: A Non-Disciplinary Inquiry</em>. U of Minnesota Press.
+          </li>
+          <li>
+            Mignolo, Walter D. and Walsh, Catherine E. (2018). <em>On Decoloniality</em>. Duke UP.
+          </li>
+        </ul>
+      </div>
       
-      <div id="rhet-data">
+      <!-- <div id="rhet-data">
         <h3>Rhetorics of Data / Critical Data</h3>
         <ul>
           <li>Adams, V. (2016). Metrics of the Global Sovereign: Numbers and Stories in Global Health. In V. Adams (Ed.), Metrics (pp. 19–54). Duke University Press.
@@ -139,9 +174,9 @@
           <li>Lauer, C., & O’Brien, S. (2020). How People Are Influenced by Deceptive Tactics in Everyday Charts and Graphs. IEEE Transactions on Professional Communication, 63(4), 327–340. https://doi.org/10.1109/TPC.2020.3032053
           <li>
         </ul>
-      </div>
+      </div> -->
     
-    </div> -->
+    </div>
    
     <div id="sources">
       <p>
