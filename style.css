@@ -59,6 +59,7 @@ small { font-size: 1.5vw; }
 
 section#description{
   max-width: 900px;
+  margin: auto;
 }
 section#description h2 {
   font-size: 2.5rem;
