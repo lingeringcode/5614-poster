@@ -102,7 +102,7 @@ div#sources p {
   grid-auto-rows: 9vw;
   grid-template-columns: 1fr repeat(5, 3fr) 1fr;
   /*  img src: Robin Hübscher: https://twitter.com/robinhuebscher/status/1461061639793430534/photo/3  */
-  background-image: url(https://www.clndgrn.com/media/other/haptic-data-viz.jpeg);
+  background-image: url(images/haptic-data-viz.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
